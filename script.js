@@ -4,7 +4,7 @@
 
 const submit = document.getElementById('submit');
 let answer = document.getElementById('answer');
-const target = hello;
+const text = ("hello");
 
 function log(value, mode) {
   console.clear();
