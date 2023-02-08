@@ -1,10 +1,9 @@
 /* If you're feeling fancy you can add interactivity 
     to your site with Javascript */
 
-
 const submit = document.getElementById('submit');
 let answer = document.getElementById('answer');
-const text = ("hello");
+const target = "hello";
 
 function log(value, mode) {
   console.clear();
@@ -18,7 +17,7 @@ function log(value, mode) {
 answer.addEventListener('input', function(event) {
   log(this.value, true);
   
-  if(parseInt(this.value) == target) {
+  if(this.value == target) {
     submit.disabled = false;
   }
   else {
