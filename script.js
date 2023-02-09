@@ -3,7 +3,7 @@
 
 const submit = document.getElementById('submit');
 let answer = document.getElementById('answer');
-const target = "hello";
+const target = "cooper cooper cooper";
 
 function log(value, mode) {
   console.clear();
