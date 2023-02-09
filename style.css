@@ -6,6 +6,26 @@ html {
   font-size: 16px;
 }
 
+#parentClass {
+  background: cyan;
+  width: 80vw;
+  margin: 8vw 10vw;
+  height: 210px;
+}
+
+#firstchild {
+  top: 0;
+  left: 0;
+}
+
+#secondchild {
+  top: 0;
+  right: 0;
+}
+
+#childClass {
+ 
+}
 
 /* adjust typography defaults */
 body {
@@ -18,7 +38,6 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
-  
 }
 
 #submit {
@@ -27,29 +46,21 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
- 
 }
-  
+
 #answer {
   width: 100px;
   margin: 0;
   align-items: center;
   display: flex;
   flex-direction: column;
-
-    
-  }
- 
-  
-
-
-
+}
 
 /* images and videos max out at full width */
 video {
-    background-image: url("https://cdn.glitch.global/9fa95d86-963a-4adb-84c6-b6c0f5735809/video.mp4?v=1675933649025");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 800px;
-    height: 800px;
+  background-image: url("https://cdn.glitch.global/9fa95d86-963a-4adb-84c6-b6c0f5735809/video.mp4?v=1675933649025");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 800px;
+  height: 800px;
 }
