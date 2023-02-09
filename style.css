@@ -6,10 +6,6 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
 
 /* adjust typography defaults */
 body {
@@ -37,8 +33,13 @@ body {
 
 
 /* images and videos max out at full width */
-img,
 video {
-  height: auto;
-  max-width: 100%;
+    background-image: url("https://cdn.glitch.global/9fa95d86-963a-4adb-84c6-b6c0f5735809/video.mp4?v=1675933649025");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
