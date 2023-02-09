@@ -6,26 +6,7 @@ html {
   font-size: 16px;
 }
 
-#parentClass {
-  background: cyan;
-  width: 80vw;
-  margin: 8vw 10vw;
-  height: 210px;
-}
 
-#firstchild {
-  top: 0;
-  left: 0;
-}
-
-#secondchild {
-  top: 0;
-  right: 0;
-}
-
-#childClass {
- 
-}
 
 /* adjust typography defaults */
 body {
