@@ -10,6 +10,7 @@ html {
   box-sizing: inherit;
 }
 
+
 /* adjust typography defaults */
 body {
   background: black;
@@ -20,6 +21,10 @@ body {
   align-items: center;
 }
 
+#submit {
+  width: 100px;
+  h
+}
 
 
 
