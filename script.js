@@ -1,5 +1,6 @@
 /* If you're feeling fancy you can add interactivity 
     to your site with Javascript */
+    <link rel="stylesheet" href="/style.css" />
 
 const submit = document.getElementById('submit');
 let answer = document.getElementById('answer');

@@ -13,15 +13,13 @@ html {
 /* adjust typography defaults */
 body {
   background: black;
-  margin: 1rem;
+  margin: 0;
   font-family: sans-serif;
   line-height: 1.5;
   color: black;
+  align-items: center;
 }
 
-#submit{
-  
-}
 
 /* images and videos max out at full width */
 img,
