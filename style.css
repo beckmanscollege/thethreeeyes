@@ -38,4 +38,12 @@ body {
   flex-direction: column;
 }
 
-#
+button {
+    width: 200px;
+  font-size: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  
+}
