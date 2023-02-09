@@ -1,6 +1,6 @@
 /* If you're feeling fancy you can add interactivity 
     to your site with Javascript */
-    <link rel="stylesheet" href="/style.css" />
+
 
 const submit = document.getElementById('submit');
 let answer = document.getElementById('answer');
@@ -29,3 +29,10 @@ answer.addEventListener('input', function(event) {
 submit.addEventListener('click', function(event) {
   log("Button fired.", false);
 });
+
+var video = document.createElement('video');
+video.src = 'https://cdn.glitch.global/9fa95d86-963a-4adb-84c6-b6c0f5735809/video.mp4?v=1675933649025';
+video.autoplay = true;
+video.loop = true;
+video.controls = true;
+document.body.appendChild(video);
