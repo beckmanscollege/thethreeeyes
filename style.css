@@ -19,11 +19,19 @@ body {
   line-height: 1.5;
   color: black;
   align-items: center;
+  display: flex;
+  flex-direction: column;
+  
 }
 
 #submit {
   width: 100px;
-  h
+  margin: auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+ 
+  
 }
 
 
