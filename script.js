@@ -16,3 +16,10 @@ answer.addEventListener('input', function(event) {
 submit.addEventListener('click', function(event) {
   
 });
+
+
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    $(document).ready(function() {
+      $('#button').hide().delay(3000).fadeIn(2200);
+});
+
