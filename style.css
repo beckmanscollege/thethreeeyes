@@ -21,41 +21,7 @@ body {
   flex-direction: column;
 }
 
-#parentClass{
-  align-items: center;
-  display: flex;
-  flex-direction: column;  
-}
 
-#firstChild{
-  align-items: center;
-  display: flex;
-  flex-direction: column;  
-}
-
-#secondchild{
-  align-items: center;
-  display: flex;
-  flex-direction: column;  
-}
-
-
-#submit {
-  width: 100px;
-  margin: 0;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  
-}
-
-#answer {
-  width: 100px;
-  margin: 0;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-}
 
 button {
     width: 200px;
