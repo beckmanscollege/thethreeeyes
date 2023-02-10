@@ -21,6 +21,25 @@ body {
   flex-direction: column;
 }
 
+#parentClass{
+  align-items: center;
+  display: flex;
+  flex-direction: column;  
+}
+
+#firstChild{
+  align-items: center;
+  display: flex;
+  flex-direction: column;  
+}
+
+#secondchild{
+  align-items: center;
+  display: flex;
+  flex-direction: column;  
+}
+
+
 #submit {
   width: 100px;
   margin: 0;
@@ -46,4 +65,10 @@ button {
   flex-direction: column;
   background-color: red;
   
+}
+
+#under{
+  height: 100px;
+  width: 150px; 
+  background: white;
 }
