@@ -3,7 +3,7 @@ let answer = document.getElementById('answer2');
 const target = "home";
 
 
-answer2.addEventListener('input', function(event) {
+answer.addEventListener('input', function(event) {
   
  if(this.value == target) {
     submit.disabled = false;
@@ -13,6 +13,6 @@ answer2.addEventListener('input', function(event) {
   }
 });
 
-submit2.addEventListener('click', function(event) {
+submit.addEventListener('click', function(event) {
   
 });
