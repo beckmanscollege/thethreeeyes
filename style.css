@@ -105,16 +105,16 @@ h3 {
   left: 50%;
   margin-left: -165px;
   position: fixed;
-  z-index: 400;
+  z-index: 5000;
   color: white;
   line-height: 2em;
   text-align: center;
-  -webki2t-animation: glow 0.1s ease-in-out infinite alternate;
-  -moz2-animation: glow 1s ease-in-out infinite alternate;
+  -halloj-animation: glow 0.1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 4s ease-in-out infinite alternate;
 }
 
-@-webki2t-keyframes glow {
+@-halloj-keyframes glow {
   from {
     text-shadow: 0 0 100px #ffffff, 0 0 100px #ffffff, 0 0 200px #ffffff,
       0 0 40px #ffffff;
@@ -170,6 +170,6 @@ h3 {
   top: 50%;
   margin-top: -800vh;
   position: fixed;
-  background-image: url("https://cdn.glitch.global/a0391dd9-13bc-4beb-b053-cf418b62fbd3/The_Blue_Marble_(remastered).jpg?v=1676125278937");
+  background-image: url("https://cdn.glitch.global/0582e7fe-4524-46d9-b299-1ca8ac9623c8/The_Blue_Marble_(remastered).jpg?v=1676128340320");
   zoom: 1000%;
 }
