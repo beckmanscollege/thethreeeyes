@@ -26,9 +26,11 @@ h2 {
 }
 
 @-webkit-keyframes glow {
-        from {
+      
+  from {
           text-shadow: 0 0 100px #1AC165, 0 0 20px #1AC165, 0 0 30px #1AC165, 0 0 40px #1AC165;}
 }
+
 
 #svar {
   height: 300px;
