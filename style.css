@@ -14,7 +14,7 @@ h2 {
   font-size: 1em;
   top: 50%;
   left: 50%;
-  margin-left: -55px;
+  margin-left: -150px;
   position: fixed;
   z-index: 400;
   color: #1AC165;
@@ -34,7 +34,7 @@ h2 {
   height: 300px;
   width: 350px;
   left: 50%;
-  margin-left: -75px;
+  margin-left: -175px;
   border: 1px solid;
   background-color: black;
   border-color: #1AC165;
