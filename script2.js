@@ -5,30 +5,13 @@ let target2 = "earth";
 
 
 
+
 answer.addEventListener('input', function(event) {
   
- if(this.value == target) {
+ if(this.value == target || this.value == target2) {
     submit.disabled = false;
   }
   else {
     submit.disabled = true; 
   }
-});
-
-submit.addEventListener('click', function(event) {
-  
-});
-
-answer.addEventListener('input', function(event) {
-  
- if(this.value == target2) {
-    submit.disabled = false;
-  }
-  else {
-    submit.disabled = true; 
-  }
-});
-
-submit.addEventListener('click', function(event) {
-  
 });
