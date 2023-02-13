@@ -1,0 +1,82 @@
+body {
+  font-family: monospace;
+  line-height: 1.5;
+  background: black;
+  align-items: center;
+  text-align: center;
+  font-style: normal;
+  margin: auto;
+  
+}
+
+  
+
+
+#submit3 {
+  height: 30px;
+  width: 100px;
+  border: 0px;
+  border-radius: 10px;
+  background: blue;
+  font-size: 15pt;
+  font: monospace;
+  position: fixed;
+  top: 84%;
+  margin: 50%;
+  margin: -46px;
+  z-index: 10;
+  
+}
+
+#submit3:disabled {
+  height: 30px;
+  width: 100px;
+  border: 0px;
+  border-radius: 10px;
+  background: #969696;
+  font-size: 15pt;
+  top: 84%;
+  font: monospace;
+  margin: 50%;
+  margin: -46px;
+   z-index: 10;
+}
+
+#answer3 {
+  height: 30px;
+  width: 300px;
+  background: #f4f4f4;
+  margin: 50%;
+  margin: -150px;
+  font-size: 12px;
+  position: fixed;
+  top: 90%;
+  z-index: 10;
+}
+
+#cirkel{
+  height: 120px;
+  width: 120px;
+  background: red;
+  margin-top: 40vh;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100%;
+
+}
+
+#kub{
+  height: 120px;
+  width: 120px;
+  background: blue;
+  margin-top: 40vh;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+
+
+
+
