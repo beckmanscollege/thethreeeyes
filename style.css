@@ -78,7 +78,8 @@ p {
   font-size: 10pt;
   position: fixed;
   z-index: 100;
-  margin-top: -300px;
+  margin-top: -150px;
+  margin-left: -200px
 }
 
 button {
