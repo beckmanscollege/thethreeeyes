@@ -73,7 +73,7 @@ h3 {
   font-size: 12px;
 }
 
-/* 1000% zoom.............*/
+/* 1000% zoom, what do you call this place?.............*/
 
 #bild {
   height: 5000vh;
@@ -84,5 +84,5 @@ h3 {
   margin-top: -800vh;
   position: fixed;
   background-image: url("https://cdn.glitch.global/0582e7fe-4524-46d9-b299-1ca8ac9623c8/The_Blue_Marble_(remastered).jpg?v=1676128340320");
-  zoom: 1000%;
+  zoom: 1300%;
 }
