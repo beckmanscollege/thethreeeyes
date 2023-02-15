@@ -1,3 +1,10 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+}
+
 body {
   font-family: monospace;
   line-height: 1.5;
@@ -12,12 +19,9 @@ body {
 
 h4 {
   font-size: 12pt;
-  top: 80%;
-  left: 50%;
-  margin-left: -165px;
-  position: fixed;
-  z-index: 6000;
-  color: red;
+  margin-top: 82vh;
+  text-align: center;
+ color: red;
   line-height: 2em;
   text-align: center;
   -webkit-animation: glow 0.1s ease-in-out infinite alternate;
@@ -27,26 +31,23 @@ h4 {
 
 h5 {
   font-size: 12pt;
-  top: 80%;
-  left: 50%;
-  margin-left: -200px;
-  position: fixed;
-  z-index: 5000;
-  color: red;
+  margin-top: 82vh;
+  text-align: center;
+ color: red;
   line-height: 2em;
   text-align: center;
   -webkit-animation: glow 0.1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 4s ease-in-out infinite alternate;
 }
+}
 
 h6 {
   font-size: 12pt;
-  top: 80%;
-  left: 50%;
-  margin-left: -230px;
-  position: fixed;
-  z-index: 5000;
+  top: 200px;
+text-align: center;
+
+
   color: red;
   line-height: 2em;
   text-align: center;
@@ -57,11 +58,8 @@ h6 {
 
 h7 {
   font-size: 12pt;
-  top: 82%;
-  left: 50%;
-  margin-left: -250px;
-  position: fixed;
-  z-index: 5000;
+  text-align: center;
+  margin-top: 82vh;
   color: red;
   line-height: 2em;
   text-align: center;
@@ -127,12 +125,13 @@ h7 {
 /* 1000% zoom.............*/
 
 #del3 {
-  height: 700px;
-  width: 700px;
+  height: 750px;
+  width: 750px;
   left: 50%;
-  margin-left: -400px;
+  margin-left: -375px;
   top: 50%;
   margin-top: -350px;
+  z-index: -10;
   position: fixed;
 
 }
@@ -143,6 +142,7 @@ h7 {
   top: 15%;
   margin: 50px;
    position: fixed;
+   z-index: -10
   
   
   }
@@ -154,6 +154,7 @@ h7 {
   top: 15%;
   margin: 50px;
    position: fixed;
+  z-index: -10
   
   
   }
@@ -164,6 +165,7 @@ h7 {
   top: 45%;
   margin: 50px;
    position: fixed;
+   z-index: -10
 
  
   
@@ -175,6 +177,7 @@ h7 {
   top: 45%;
   margin: 50px;
    position: fixed;
+   z-index: -10
 
   }
 
@@ -184,6 +187,7 @@ h7 {
   top: 75%;
   margin: 50px;
   position: fixed;
+   z-index: -10
  
   
   }
@@ -194,5 +198,6 @@ h7 {
   top: 75%;
   margin: 50px;
    position: fixed;
+   z-index: -10
  
   }
