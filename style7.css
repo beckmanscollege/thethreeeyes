@@ -1,0 +1,201 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+  line-height: 1.5;
+  background: black;
+  align-items: center;
+  text-align: center;
+  font-style: normal;
+  margin: auto;
+  
+}
+
+
+h4 {
+  font-size: 12pt;
+  margin-top: 82vh;
+  text-align: center;
+ color: red;
+  line-height: 2em;
+  text-align: center;
+  -webkit-animation: glow 0.1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 4s ease-in-out infinite alternate;
+}
+
+h5 {
+  font-size: 12pt;
+  margin-top: 82vh;
+  text-align: center;
+ color: red;
+  line-height: 2em;
+  text-align: center;
+  -webkit-animation: glow 0.1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 4s ease-in-out infinite alternate;
+}
+
+
+h6 {
+   font-size: 12pt;
+  margin-top: 82vh;
+  text-align: center;
+ color: red;
+  line-height: 2em;
+  text-align: center;
+  -webkit-animation: glow 0.1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 4s ease-in-out infinite alternate;
+}
+
+h7 {
+  font-size: 12pt;
+  text-align: center;
+  margin-top: 82vh;
+  color: red;
+  line-height: 2em;
+  text-align: center;
+  -webkit-animation: glow 0.1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 4s ease-in-out infinite alternate;
+}
+
+
+
+
+
+
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 100px red, 0 0 100px red, 0 0 200px red,
+      0 0 40px red;
+  }
+}
+
+#svar2 {
+  height: 400px;
+  width: 450px;
+  left: 50%;
+  margin-left: -210px;
+  top: 39vh;
+  position: fixed;
+  z-index: 200;
+}
+
+#submit2 {
+  height: 30px;
+  width: 100px;
+  border: 0px;
+  border-radius: 10px;
+  background: #1ac165;
+  font-size: 15pt;
+  margin-top: 10px;
+  font: monospace;
+}
+
+#submit2:disabled {
+  height: 30px;
+  width: 100px;
+  border: 0px;
+  border-radius: 10px;
+  background: #969696;
+  font-size: 15pt;
+  margin-top: 10px;
+  font: monospace;
+}
+
+#answer2 {
+  height: 30px;
+  width: 300px;
+  background: #f4f4f4;
+  margin: auto;
+  margin-top: 250px;
+  font-size: 12px;
+}
+
+/* 1000% zoom.............*/
+
+#del3 {
+  height: 750px;
+  width: 750px;
+  left: 50%;
+  margin-left: -375px;
+  top: 50%;
+  margin-top: -350px;
+  z-index: -10;
+  position: fixed;
+
+}
+
+#a1 {
+  height: 10vh;
+  left: 15%;
+  top: 15%;
+  margin: 50px;
+   position: fixed;
+   z-index: -10
+  
+  
+  }
+
+#a2 {
+
+  height: 10vh;
+  right: 15%;
+  top: 15%;
+  margin: 50px;
+   position: fixed;
+  z-index: -10
+  
+  
+  }
+
+#a3 {
+  height: 10vh;
+  left: 15%;
+  top: 45%;
+  margin: 50px;
+   position: fixed;
+   z-index: -10
+
+ 
+  
+  }
+
+#a4 {
+ height: 10vh;
+  right: 15%;
+  top: 45%;
+  margin: 50px;
+   position: fixed;
+   z-index: -10
+
+  }
+
+#a5 {
+ height: 10vh;
+  left: 15%;
+  top: 75%;
+  margin: 50px;
+  position: fixed;
+   z-index: -10
+ 
+  
+  }
+
+#a6 {
+ height: 10vh;
+  right: 15%;
+  top: 75%;
+  margin: 50px;
+   position: fixed;
+   z-index: -10
+ 
+  }

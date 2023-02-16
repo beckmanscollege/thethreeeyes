@@ -1,2 +1,28 @@
-const _0x1eb2ed=_0x5779;function _0x5779(_0x30e0a1,_0x3f4448){const _0x5786c0=_0x5786();return _0x5779=function(_0x577953,_0x42bc4e){_0x577953=_0x577953-0x95;let _0x41c3b4=_0x5786c0[_0x577953];return _0x41c3b4;},_0x5779(_0x30e0a1,_0x3f4448);}function _0x5786(){const _0x56b965=['value','8529tPUvcO','input','42231340INGinM','8241840UDCYhx','21UBDecj','getElementById','3013386pgdxyn','Cooper/Cooper/Cooper','disabled','answer2','1943168ehJUsf','addEventListener','submit2','4KnQpYR','cooper/cooper/cooper','4699710HeiQtB','cooper\x20cooper\x20cooper','1252rjncPl','534554eUsRqo'];_0x5786=function(){return _0x56b965;};return _0x5786();}(function(_0x45a287,_0x117a6a){const _0x795c46=_0x5779,_0x5f47bf=_0x45a287();while(!![]){try{const _0x1c8272=parseInt(_0x795c46(0x9b))/0x1*(parseInt(_0x795c46(0x96))/0x2)+parseInt(_0x795c46(0x9d))/0x3*(-parseInt(_0x795c46(0x9a))/0x4)+-parseInt(_0x795c46(0x98))/0x5+parseInt(_0x795c46(0xa3))/0x6*(-parseInt(_0x795c46(0xa1))/0x7)+-parseInt(_0x795c46(0xa7))/0x8+-parseInt(_0x795c46(0xa0))/0x9+parseInt(_0x795c46(0x9f))/0xa;if(_0x1c8272===_0x117a6a)break;else _0x5f47bf['push'](_0x5f47bf['shift']());}catch(_0x3e5a42){_0x5f47bf['push'](_0x5f47bf['shift']());}}}(_0x5786,0xc29a4));const submit=document['getElementById'](_0x1eb2ed(0x95));let answer=document[_0x1eb2ed(0xa2)](_0x1eb2ed(0xa6)),target=_0x1eb2ed(0x97),target2=_0x1eb2ed(0xa4),target3=_0x1eb2ed(0x99);answer['addEventListener'](_0x1eb2ed(0x9e),function(_0x1eb113){const _0x330ac5=_0x1eb2ed;this[_0x330ac5(0x9c)]==target||this[_0x330ac5(0x9c)]==target2||this[_0x330ac5(0x9c)]==target3?submit['disabled']=![]:submit[_0x330ac5(0xa5)]=!![];}),submit[_0x1eb2ed(0xa8)]('click',function(_0x4af4ac){});
+const submit = document.getElementById('submit');
+let answer = document.getElementById('answer');
+let target = "cooper/cooper/cooper";
+let target2 = "Cooper/Cooper/Cooper";
+let target3 = "cooper cooper cooper"
+
+
+
+
+answer.addEventListener('input', function(event) {
+  
+ if(this.value == target || this.value == target2 || this.value == target3) {
+    submit.disabled = false;
+  }
+  else {
+    submit.disabled = true; 
+  }
+});
+
+
+
+submit.addEventListener('click', function(event) {
+  
+});
+
+
+ 
 
