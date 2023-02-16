@@ -1,27 +1,6 @@
-const submit = document.getElementById('submit');
-let answer = document.getElementById('answer');
-let target = "cooper/cooper/cooper";
-let target2 = "Cooper/Cooper/Cooper";
-let target3 = "cooper cooper cooper"
 
 
-
-
-answer.addEventListener('input', function(event) {
-  
- if(this.value == target || this.value == target2 || this.value == target3) {
-    submit.disabled = false;
-  }
-  else {
-    submit.disabled = true; 
-  }
-});
-
-
-
-submit.addEventListener('click', function(event) {
-  
-});
+const _0x1438b5=_0x1675;(function(_0x248e00,_0x5bc77e){const _0x21a4c0=_0x1675,_0xd57359=_0x248e00();while(!![]){try{const _0x62327e=-parseInt(_0x21a4c0(0x183))/0x1+-parseInt(_0x21a4c0(0x18e))/0x2*(-parseInt(_0x21a4c0(0x18d))/0x3)+-parseInt(_0x21a4c0(0x187))/0x4*(parseInt(_0x21a4c0(0x181))/0x5)+parseInt(_0x21a4c0(0x182))/0x6*(-parseInt(_0x21a4c0(0x191))/0x7)+-parseInt(_0x21a4c0(0x18b))/0x8+-parseInt(_0x21a4c0(0x18a))/0x9+parseInt(_0x21a4c0(0x185))/0xa*(parseInt(_0x21a4c0(0x18f))/0xb);if(_0x62327e===_0x5bc77e)break;else _0xd57359['push'](_0xd57359['shift']());}catch(_0x3f0580){_0xd57359['push'](_0xd57359['shift']());}}}(_0x5d58,0xe9053));const submit=document[_0x1438b5(0x189)](_0x1438b5(0x194));let answer=document[_0x1438b5(0x189)]('answer'),target=_0x1438b5(0x18c),target2=_0x1438b5(0x193),target3=_0x1438b5(0x186);function _0x1675(_0x21c6af,_0x45bbda){const _0x5d584f=_0x5d58();return _0x1675=function(_0x167515,_0x67c9b1){_0x167515=_0x167515-0x181;let _0x2e5aa6=_0x5d584f[_0x167515];return _0x2e5aa6;},_0x1675(_0x21c6af,_0x45bbda);}answer['addEventListener'](_0x1438b5(0x188),function(_0xac362a){const _0x5bff1f=_0x1438b5;this[_0x5bff1f(0x190)]==target||this[_0x5bff1f(0x190)]==target2||this[_0x5bff1f(0x190)]==target3?submit[_0x5bff1f(0x184)]=![]:submit[_0x5bff1f(0x184)]=!![];}),submit['addEventListener'](_0x1438b5(0x192),function(_0x1236eb){});function _0x5d58(){const _0x5115e4=['cooper/cooper/cooper','70113FRtzrH','4XMPpLs','11PQJpCM','value','7364pqKCln','click','Cooper/Cooper/Cooper','submit','27355hkRAlo','9804QtQEMO','1347412YdvxOT','disabled','81772310JmaOll','cooper\x20cooper\x20cooper','1104rAyAYw','input','getElementById','9142650csaDTb','13418368BGMJgf'];_0x5d58=function(){return _0x5115e4;};return _0x5d58();}
 
 
  

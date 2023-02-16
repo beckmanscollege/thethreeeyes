@@ -199,3 +199,31 @@ h7 {
    z-index: -10
  
   }
+
+  @font-face {
+    font-family: "pixel";
+    src: url("https://www.worldwidewebring.club/assets/188Sans-Pixel100.woff2") format("woff2");
+    }
+
+
+    #webring {
+    background-color: #ccccc;
+    display: flex;
+    text-align: center;
+    font-size: 2vw;
+    line-height: 1em;
+    font-family: "pixel", arial;
+    padding: 0.5vw;
+
+    }
+
+    #webring-left, #webring-right {
+    width: 20vw;
+    align-self: center;
+    }
+
+    #webring-middle {
+    flex-grow: 1;
+    align-self: center;
+    }
+      z
